@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Introduce from './Components/Introduce/introduce';
+import Problems from './Components/Problems/problems';
+import Special from './Components/Special/special';
+import StepCard from './Card/StepCard';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div className="h-screen overflow-auto py-4 px-8 ">
+    <Introduce/>
+    <Problems/>
+    <Special/>
+    <div className="grid grid-cols-2 gap-4">
+       <StepCard/>
     </div>
-  );
+   
+   </div>
+  )
 }
-
 export default App;
