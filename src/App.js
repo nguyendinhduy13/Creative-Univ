@@ -60,11 +60,9 @@ function App() {
         items-center"
         >
           <div className="flex justify-center font-head font-semibold text-16">
-            Mentor dẫn dắt
+            Đối tác tuyển dụng
           </div>
-          <div className="font-body text-[11px]">
-            Mỗi chương trình sẽ có bộ 3 Mentors đồng hành cùng bạn
-          </div>
+        
         </div>
         <Job />
       </div>
