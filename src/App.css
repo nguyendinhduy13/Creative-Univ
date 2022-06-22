@@ -27,6 +27,12 @@
 .App-link {
   color: #61dafb;
 }
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #FFC72C;
+  opacity: 1;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

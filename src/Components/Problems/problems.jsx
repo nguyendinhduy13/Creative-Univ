@@ -21,14 +21,14 @@ const Problems = () => {
           />
         </div>
         <div className="flex">
-        <div className="flex-auto ">
+          <div className="flex-auto ">
             <img
               className="-mt-8"
               src="https://i.imgur.com/gDpg3mo.png"
               alt="problems"
             />
           </div>
-          <div className="flex-auto " >
+          <div className="flex-auto ">
             <div className="font-head font-medium text-16 -rotate-2 ml-10 mt-5">
               Creative Univ sẽ giúp bạn
             </div>
@@ -39,7 +39,6 @@ const Problems = () => {
               Bạn luôn có những vấn đề
             </div>
           </div>
-          
         </div>
       </div>
     </section>
