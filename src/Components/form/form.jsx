@@ -74,22 +74,26 @@ const Form = () => {
           Có khả năng nhận học bổng lên đến 4 250 000 VNĐ khi gửi kèm portfolio
         </p>
       </div>
-      <div className="z-50 flex justify-center mt-[65px] mb-[12px] text-[20px] ml-10 font-hand">
-        
-          Form đăng ký <br /> chính thức
-       
+      <div className="z-50 flex justify-center mt-[30px] mb-[1px] text-[20px] ml-10 font-hand">
+        Form đăng ký <br /> chính thức
       </div>
 
-      <div className="font-head text-10 font-medium flex flex-col w-[50px] h-[100px] mt[40px] ml-[180px]">
+      <div className="font-head text-10 font-medium flex flex-col w-[50px] h-[100px] mb-10 -mt[10px] ml-[210px]">
         <img
           className="z-40"
           src="https://i.imgur.com/nXSzPlz.png"
           alt="light"
         />
       </div>
+
+      <div onClick={"https://docs.google.com/forms/d/e/1FAIpQLSfibdtq1gAH0BZiIqXAf4Ez9nQzMqS2rMVQ5mkCj5q3aRPETA/viewform"} className="z-40 relative flex justify-center -mt-[39px] ml-[5px]">
+        <span class="absolute w-[45px] h-[45px] inline-flex rounded-full bg-yellow-main " />
+        <span class="asolute animate-ping w-[45px] h-[45px] inline-flex rounded-full bg-yellow-main" />
+      </div>
+
       <div className="z-[10]">
         <img
-          className="w-full -mt-[240px] -z-[10]"
+          className="w-full -mt-[260px] -z-[10]"
           src="https://i.imgur.com/YlslnpE.png"
           alt="hands"
         />
